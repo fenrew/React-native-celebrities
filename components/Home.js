@@ -13,6 +13,8 @@ class Home extends Component {
     else if (input >= celebrities.length) input = celebrities.length - 1;
     else if (!input) input = 0
 
+    console.log(input)
+
     this.setState({
       search: input
     });

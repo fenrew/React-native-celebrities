@@ -1,13 +1,13 @@
 import React from 'react';
-import {View, Text, Image, StyleSheet} from "react-native"
+import {View, Text, Image, StyleSheet, ImageBackground} from "react-native"
 
 const Celebrity = (props) => {
 
     let ratingColor = props.navigation.state.params.celebrity.popularity * 0.05
     if(ratingColor < 0.1) ratingColor = 0.1
-    console.log(ratingColor)
 
     return (
+      <ImageBackground style={{height: "100%", width: "100%"}} source={require("../assets/background-image.jpg")}>
         <View style={{flex: 1, alignItems: "center"}}>
             <Text>ONE CELEB</Text>
             <Text style={[styles.header, {marginTop: 30}]}>{props.navigation.state.params.celebrity.name}</Text>
@@ -21,6 +21,7 @@ const Celebrity = (props) => {
             <Text>/20</Text>
           </View>
         </View>
+      </ImageBackground>
     );
 };
 

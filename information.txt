@@ -1,0 +1,11 @@
+Presentation slides: https://docs.google.com/presentation/d/1JSvJqyPXs5u95hHqOqOaDgQmSy6U26rPDxQ0Y1-VWo4/edit?usp=sharing
+
+Test your project with:
+    - Expo CLI
+    - React Native CLI (req. Android Studio)
+    - Connect your phone to your computer and and put on developer mode
+
+INSTALL:
+npm install react-navigation
+npm install react-navigation-stack
+npm install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view

@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Image, TouchableOpacity, ScrollView, StyleSheet} from "react-native";
+import { View, Text, Image, TouchableOpacity, ScrollView, StyleSheet, ImageBackground} from "react-native";
 
 import celebrities from "../celebrities.json";
 import styles from "./celeb-styles"
@@ -52,21 +52,23 @@ const Celebrities = props => {
   console.log("HELLO");
 
   return (
+    <ImageBackground style={{width: "100%", height: "100%"}} source={require("../assets/background-image.jpg")}>
     <View
       style={{
         flex: 1,
         alignItems: "center"
       }}
     >
-      <Text>CELEBES</Text>
+      <Text style={{fontSize: 25, marginBottom: 20}}>CELEBES</Text>
 
       <View style={{ flex: 1, flexDirection: "row" }}>
-        <View style={{ height: "100%" }}>
+        <View style={{ height: "94%" }}>
           <ScrollView>{allCelebrities}</ScrollView>
         </View>
         <View>{renderCelebrities}</View>
       </View>
     </View>
+    </ImageBackground>
   );
 };
 

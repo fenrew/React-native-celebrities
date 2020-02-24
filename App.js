@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 import {createAppContainer} from "react-navigation"
 import { createStackNavigator } from "react-navigation-stack";
 
@@ -25,6 +25,7 @@ export default class App extends Component {
   render() {
     return (
       <AppContainer>
+
 
       </AppContainer>
     );
