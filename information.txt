@@ -5,7 +5,31 @@ Test your project with:
     - React Native CLI (req. Android Studio)
     - Connect your phone to your computer and and put on developer mode
 
-INSTALL:
+NEW INSTALL WITH RIGHT VERSIONS:
+npm install react-navigation@4.1.1
+npm install react-navigation-stack@2.1.1
+npm install  react-native-gesture-handler@1.5.6 react-native-reanimated@1.4.0 react-native-safe-area-context@0.6.0 react-native-screens@2.0.0-alpha.12 @react-native-community/masked-view
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+============================================
+
+INSTALL: (NOT CURRENTLY WORKING)
 npm install react-navigation
 npm install react-navigation-stack
 npm install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
